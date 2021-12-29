@@ -1,0 +1,86 @@
+
+#opcoes{
+    position: absolute;
+    display:flex;
+    margin: 10px;
+}
+#opcoes,a{
+    padding: 5px;
+}
+li {
+    list-style: none;
+}
+body{
+    background-color: lightgray;
+}
+h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    color:black;
+}
+h2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    color:black;
+}
+#Menu,input:hover{
+    opacity: 60%;
+}
+#Menu{
+    position: absolute;
+    display: flex;
+    float: top;
+    width: 468px;
+    height: 26px;
+    margin: 0;
+    padding: 5px;
+    top: 10px;
+    right: 130px;
+}
+table {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    right: 10px;
+}
+table,td,th{
+    margin: 3px;
+    padding: 3px;
+}
+td,th{
+    width: 300px;
+    height: 15px;
+    table-layout: fixed;
+    font-size: 15px;
+}
+footer{
+    position: absolute;
+    bottom: 5px;
+    left: 41%;
+    right: 35%;
+}
+li{
+    list-style: none;
+    margin: 5px;
+}
+input{
+    font-family: 'Orbitron', sans-serif;
+    background: black;
+    border: 1px solid black;
+    color: white;
+}
+input:hover{
+    background: white;
+    color: black;
+}
+h2,th,h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+}
+tbody,thead,tr,td,th,table{
+    border: 1px black solid;
+}
+hgroup{
+    border: 1px solid black;
+    padding: 10px;
+}
